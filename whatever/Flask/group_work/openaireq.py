@@ -10,7 +10,7 @@ chrome_options = Options()
 #chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(PATH)
 
-driver.get("file:///Users/misterrobot/Desktop/Programming/Blueprint/whatever/Flask/group_work/index.html")
+driver.get("C:whatever/Flask/group_work/index.html")
 
 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, "//button[@id='button']")))
 prompt_ = driver.find_element(By.XPATH, "//button[@id='button']").text
