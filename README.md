@@ -4,6 +4,9 @@ An attempt to give recommendations for similar songs/movies/books based on the t
 
 By:
 Alex Howden
+
 Luis Garcia
+
 David Delatorre
+
 Liam
