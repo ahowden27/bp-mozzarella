@@ -18,7 +18,7 @@ print(prompt_)
 
 openai.organization = "org-rHdbbV2MAyPY28iF7ayK1HpI"
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 response = openai.Completion.create(
   model="text-davinci-003",
